@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aqua Nook | Beginner Aquascaping Kits</title>
+  <meta
+    name="description"
+    content="Aqua Nook helps beginners build a peaceful planted aquarium at home."
+  >
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Aqua Nook home">
+        <span class="brand-mark">◒</span>
+        Aqua Nook
+      </a>
+
+      <ul>
+        <li><a class="nav-link" href="#features">Why Aqua Nook</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#kits">Kits</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">For slow and thoughtful living</p>
+        <h1>Build your first underwater world.</h1>
+        <p>
+          Beginner-friendly aquascaping kits designed to help you bring a
+          peaceful little ecosystem into your space.
+        </p>
+
+        <a class="button button-coral" href="#kits">Explore the kits</a>
+      </div>
+
+      <p class="hero-note">Made for first-time aquascapers.</p>
+    </section>
+
+    <section class="email-section">
+      <div>
+        <p class="eyebrow">Start with confidence</p>
+        <h2>Get the free beginner checklist.</h2>
+        <p>
+          A simple guide to choosing plants, setting up your tank, and avoiding
+          common beginner mistakes.
+        </p>
+      </div>
+
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+      >
+        <label class="sr-only" for="email">Email address</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Your email address"
+          required
+        >
+        <input id="submit" type="submit" value="Send me the checklist">
+      </form>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">A calmer way to begin</p>
+        <h2>Everything you need, without the overwhelm.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon">01</span>
+          <h3>Curated for beginners</h3>
+          <p>
+            Each kit contains beginner-friendly plants and clear instructions,
+            so you can start without guessing what to buy.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon">02</span>
+          <h3>Designed to grow</h3>
+          <p>
+            Create a small underwater landscape that changes slowly and becomes
+            more beautiful as you care for it.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-icon">03</span>
+          <h3>Support when you need it</h3>
+          <p>
+            Follow practical setup guides and get help when your new ecosystem
+            needs a little extra care.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="process-section" id="how-it-works">
+      <div class="section-heading">
+        <p class="eyebrow">How it works</p>
+        <h2>A small ritual with a beautiful result.</h2>
+      </div>
+
+      <ol class="process-list">
+        <li>
+          <span>01</span>
+          <div>
+            <h3>Choose your kit</h3>
+            <p>Select the size and style that fits your space.</p>
+          </div>
+        </li>
+
+        <li>
+          <span>02</span>
+          <div>
+            <h3>Set up slowly</h3>
+            <p>Use the included guide to arrange, plant, and fill your tank.</p>
+          </div>
+        </li>
+
+        <li>
+          <span>03</span>
+          <div>
+            <h3>Watch it grow</h3>
+            <p>Care for your aquascape and enjoy the tiny world you created.</p>
+          </div>
+        </li>
+      </ol>
+
+      <div class="video-wrapper">
+        <video
+          id="video"
+          controls
+          poster="images/aquarium-video-cover.jpg"
+        >
+          <source src="videos/aquascaping-introduction.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <p class="video-note">
+        Add your own aquascaping video later inside the <code>videos</code>
+        folder. The poster image can go inside <code>images</code>.
+      </p>
+    </section>
+
+    <section class="section kits-section" id="kits">
+      <div class="section-heading">
+        <p class="eyebrow">Find your starting point</p>
+        <h2>Choose your first kit.</h2>
+      </div>
+
+      <div class="kit-grid">
+        <article class="kit-card">
+          <p class="kit-label">Small space</p>
+          <h3>Nano Kit</h3>
+          <p class="price">₱1,290</p>
+          <p class="kit-description">
+            A simple desktop aquascape for a quiet corner of your room.
+          </p>
+
+          <ul>
+            <li>5-liter glass tank</li>
+            <li>Beginner plant set</li>
+            <li>Natural stone and soil</li>
+            <li>Printed setup guide</li>
+          </ul>
+
+          <a class="button button-outline" href="#form">Choose Nano</a>
+        </article>
+
+        <article class="kit-card recommended">
+          <p class="popular-label">Most Popular</p>
+          <p class="kit-label">Balanced starter set</p>
+          <h3>Classic Kit</h3>
+          <p class="price">₱2,490</p>
+          <p class="kit-description">
+            A fuller aquascape with more room to create your own composition.
+          </p>
+
+          <ul>
+            <li>15-liter glass tank</li>
+            <li>Easy-care plant set</li>
+            <li>Hardscape materials</li>
+            <li>LED light and care guide</li>
+          </ul>
+
+          <a class="button button-coral" href="#form">Choose Classic</a>
+        </article>
+
+        <article class="kit-card">
+          <p class="kit-label">For creative projects</p>
+          <h3>Complete Kit</h3>
+          <p class="price">₱4,290</p>
+          <p class="kit-description">
+            A complete setup for people ready to make a larger underwater world.
+          </p>
+
+          <ul>
+            <li>30-liter glass tank</li>
+            <li>Premium plant set</li>
+            <li>Filter, light, and soil</li>
+            <li>Detailed care guide</li>
+          </ul>
+
+          <a class="button button-outline" href="#form">Choose Complete</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home">
+      <span class="brand-mark">◒</span>
+      Aqua Nook
+    </a>
+
+    <p>Made for small worlds and slower days.</p>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#kits">Kits</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
